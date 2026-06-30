@@ -15,3 +15,17 @@ for (i=0;i<=sum;i++)
 }
 
 
+// Wk2 Day 1 Classroom activity
+let value ="playwritght is an automation tool"
+let slicedvalue = value.slice(20)
+let splitvalue = value.split(" ")
+console.log("value of split and slice is - ", value.split(" ")[1].slice(0, 4));
+console.log("value is - ", value);
+console.log("sliced value is - ", slicedvalue);
+console.log("value after slice is - ", value);
+console.log("value after split is - ",splitvalue);
+
+
+let value1 = "javascript"
+console.log(" a occurs these many times in the word javascript - ", value1.split('a').length-1);
+console.log("reverse is - ", value1.split("").reverse().join(""));
